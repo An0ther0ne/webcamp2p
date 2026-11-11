@@ -2,6 +2,10 @@
 
 A lightweight, stable peer-to-peer (P2P) dual-window video streaming application built in Python using `Tkinter`, `OpenCV`, and raw TCP sockets.
 
+## Interface Preview
+
+![webcamp2p UI](webcamp2p3.md.png)
+
 ## Features
 - **Dual-Stream UI:** Local and remote video feeds side-by-side using a responsive grid layout.
 - **Full-Duplex Sockets:** Dedicated separate ports for inbound and outbound traffic.
@@ -9,7 +13,7 @@ A lightweight, stable peer-to-peer (P2P) dual-window video streaming application
 - **Clean Lifecycle Management:** Thread-safe execution with immediate hardware release on exit.
 
 ## Requirements
-```
+```bash
 pip install opencv-python numpy pillow
 ```
 
