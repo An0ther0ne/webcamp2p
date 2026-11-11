@@ -11,6 +11,7 @@ A lightweight, stable peer-to-peer (P2P) dual-window video streaming application
 ## Requirements
 ```
 pip install opencv-python numpy pillow
+```
 
 ## Build Instructions
 
@@ -18,3 +19,4 @@ To build the standalone executable (`.exe`) from source using PyInstaller:
 
 ```
 python -m PyInstaller --onefile --noconsole webcam.p2p3.py
+```
