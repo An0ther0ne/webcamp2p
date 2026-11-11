@@ -9,12 +9,12 @@ A lightweight, stable peer-to-peer (P2P) dual-window video streaming application
 - **Clean Lifecycle Management:** Thread-safe execution with immediate hardware release on exit.
 
 ## Requirements
-```bash
+```
 pip install opencv-python numpy pillow
 
 ## Build Instructions
 
 To build the standalone executable (`.exe`) from source using PyInstaller:
 
-```bash
+```
 python -m PyInstaller --onefile --noconsole webcam.p2p3.py
